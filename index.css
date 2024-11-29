@@ -1,0 +1,31 @@
+.my-custom-row {
+
+    /*background-color: bisque; */
+    height: 400px;
+
+}
+
+.custom-bottom-shadow {
+    box-shadow: 0 4px 6px rgba(0, 0, 2, 0.5);
+    /* Bottom shadow */
+    position: fixed;
+    z-index: 1;
+}
+
+.custom-right-border {
+    border-right: 2px solid #d8d4d4;
+    /* Adjust thickness and color */
+}
+
+.full-height-container {
+    height: 100vh;
+    /* Full height of the viewport */
+    background-image: url('Blue.jpg');
+    background-size: cover;
+    /* Makes the image cover the entire container */
+    background-position: center;
+    /* Centers the image in the container */
+    background-repeat: no-repeat;
+}
+
+@media px699
